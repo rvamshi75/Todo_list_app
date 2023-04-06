@@ -122,3 +122,89 @@ margin-bottom: 10px;
 .newTaskDate{
     color: rgb(240, 35, 35);
 }
+
+
+/* ============================================================================================ */
+
+@media (max-width :500px){
+    
+.topcontent{
+    padding: 10px;
+    width: 350px;
+    border-radius: 12px;
+    background-color: #fff;
+    margin: 50px auto;
+}
+
+
+.topcontent .text-top{
+margin-left: 20px;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+
+
+.default{
+   
+    text-align: center;
+}
+
+.default img{
+    margin-top: 10px;
+    border-radius: 12px;
+    width: 120px;
+}
+
+
+.input-section{
+    position: relative;
+    display: grid;
+    padding: 10px;
+    width: 350px;
+    border-radius: 12px;
+    background-color: #fff;
+    margin: 50px auto;
+    
+
+
+}
+
+.input-section input{
+    font-size:16px ;
+    margin-bottom: 6px;
+    margin-left: 50px;
+    width:200px ;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+    
+    
+}
+
+.input-section input:focus{
+    border: 2px solid gray;
+}
+
+.input-section button{
+    /* position: absolute; */
+    top: 110px;
+    right: 10px;
+    width: 70px;
+    padding: 8px;
+    cursor: pointer;
+    font-size:13px ;
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.input-section button:hover{
+    background-color: rgb(63, 63, 250);
+}
+
+}
