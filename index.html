@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="topcontent" id="topcontent">
+        <h2 class="text-top">My Todo's</h2>
+        <span class="line"></span>
+        <div class="default">
+            <img src="./pokemon-detective-pikachu-uhd-4k-wallpaper (2).jpg" alt="">
+            <h2>You have no task today</h2>
+            <p>You have no new task today.</p>
+            <p>Start adding your new task.!</p>
+        </div>
+        <!-- <div class="content">
+            <ul id="listElement">
+                <input type="checkbox" id="checkbox">
+                <li class="listdata">task</li>
+            </ul>
+        </div> -->
+
+    </div>
+
+    <div class="input-section" id="input-section">
+        <input type="text" id="taskname" placeholder="Enter task name">
+        <input type="text" name="" id="desc" placeholder="Add Description">
+        <input type="text" id="datetime" placeholder="Due date" onfocus="(this.type = 'datetime-local')" onblur="this.type='text'"> <button
+            class="btn" id="btn" onclick="addTask()">Add Task</button>
+
+        <script src="./app.js"></script>
+</body>
+
+</html>
